@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+.venv
+venv/
+env/
+
+# FastAPI / Uvicorn
+*.log
+
+# Redis dump
+dump.rdb
+
+# VSCode
+.vscode/
+
+# Node modules (for frontend)
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+
+backend/venv/
+backend/.venv/
